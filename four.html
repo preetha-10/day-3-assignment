@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ANIMATE</title>
+        <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .one{
+            width:300px;
+            height:300px;
+            background-color: rgb(172, 206, 164);
+            font-style: italic;
+            font-display: center;
+            transition:0.5s;
+            cursor:pointer;
+            font-size:xx-large;
+            display: inline-block;
+        }
+        .one:hover{
+            background-color: rgb(113, 206, 37);
+            width:200px;
+            height:200px;
+            transition:0.5s;
+            cursor:pointer;
+            box-shadow:red;
+        }
+        .inp{
+            width:300px;
+            background-color: rgb(245, 222, 240);
+            font-style: italic;
+            cursor:pointer;
+            font-size:xx-large ;
+            border-color: rgb(13, 13, 14);
+            display: inline-block;
+        }
+        .inp:focus{
+            box-shadow:20px 0px 20px rgb(206, 99, 200);
+        }
+        .demo{
+            width:200px;
+            height:200px;
+            font-style: italic;
+            cursor:pointer;
+            background-color: rgb(255, 251, 0);
+            border-bottom:10px solid rgb(231, 12, 12);
+            border-radius: 50%;
+            transition: 1s;
+            display: inline-block;
+        }
+        .demo:hover{
+            transform: rotateZ(34000deg);
+            transition: 1s;
+            font-size:xx-large;
+        }
+        </style>
+        <body>
+            <div class="one">
+                LETSUPGRADE
+            </div>
+            <input class="inp" placeholder="enter your name">
+            <input class="demo" placeholder="STAY SAFE">
+        </body>
+    </head>
+</html>
